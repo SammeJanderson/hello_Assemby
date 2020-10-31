@@ -1,3 +1,8 @@
+## Requirements
++ linux
++ nasm
+
+
 ## stet by step
 
 1. instal nasm
