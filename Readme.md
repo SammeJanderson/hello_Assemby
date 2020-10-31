@@ -26,9 +26,9 @@ _start:
 
 
 section .data:
-        message: db "Hello There!", 0xA
+        message: db "Hello There!", 0xA        ;0xA to inset line break
         message_length equ $-message
-```
+````
 
 
 3. compile the program
