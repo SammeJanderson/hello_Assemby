@@ -31,8 +31,8 @@ _start:
 
 
 section .data:
-        message: db "Hello There!", 0xA        ;0xA to inset line break
-        message_length equ $-message
+        message: db "Hello There!", 0xA        ; 0xA to inset line break
+        message_length equ $-message           ; defines the message lenght_equals to the message
 ````
 
 
